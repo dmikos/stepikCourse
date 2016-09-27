@@ -1,10 +1,22 @@
 #!/usr/bin/env python3
 
-a = []
+class A:
+    def __init__(self, val=0):
+        self.val = val
 
-def foo(arg1, arg2):
-  a.append("foo")
+    def add(self, x):
+        self.val += x
 
-foo(a.append("arg1"), a.append("arg2"))
+    def print_val(self):
+        print(self.val)
 
-print(a)
+
+a = A()
+b = A(2)
+c = A(4)
+a.add(2)
+b.add(2)
+
+a.print_val()
+b.print_val()
+c.print_val()
