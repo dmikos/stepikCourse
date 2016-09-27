@@ -5,21 +5,21 @@
 class Buffer:
     def __init__(self):
         # конструктор без аргументов
-        self.part = []
+        self.lst = []
 
     def add(self, *a):
         # добавить следующую часть последовательности
-        self.part.extend(a)
-        while len(self.part) >= 5:
+        self.lst.extend(a)
+        while len(self.lst) >= 5:
             count = 0
             for i in range(5):
-                count += self.part.pop(0)
+                count += self.lst.pop(0)
             print(count)
 
     def get_current_part(self):
         # вернуть сохраненные в текущий момент элементы последовательности в порядке, в котором они были
         # добавлены
-        print(self.part)
+        return self.lst
 
 ###
 buf = Buffer()
