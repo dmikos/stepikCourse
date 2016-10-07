@@ -17,6 +17,7 @@ c = A(4)
 a.add(2)
 b.add(2)
 
-a.print_val()
-b.print_val()
-c.print_val()
+if __name__ == "__main__":
+    a.print_val()
+    b.print_val()
+    c.print_val()
