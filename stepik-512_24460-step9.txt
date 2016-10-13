@@ -1,0 +1,16 @@
+NsStruct = {'global':[]}
+
+add global a
+NsStruct = {'global':['a']}
+
+create foo global
+NsStruct = {'global':['a', {'foo':[]}]}
+
+add foo b
+NsStruct = {'global':['a', {'foo':['b']}]}
+
+create bar foo
+NsStruct = {'global':['a', {'foo':['b', {'bar':[]}]}]}
+
+create bar a
+NsStruct = {'global':['a', {'foo':['b', {'bar':['a']}]}]}
