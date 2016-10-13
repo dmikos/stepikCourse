@@ -25,3 +25,9 @@ def func(req, ns, var):
     print(NsStruct)
     print(NsStruct.keys())
     print("\n")
+    -
+
+
+for k in d.get('content'):
+    print k.get('number')
+
