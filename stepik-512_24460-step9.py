@@ -14,18 +14,31 @@ nsp (пространство имен указанное в строке) и ar
     Функции add и create добавляют записи в словарь. Записываются в одну строку
     Функция get. Вот тут все проблемы. Возвращает  либо none, либо nsp, либо рекурсия и обращение к родительскому nsp.
 """
-def create(req, ns, var):
-    print("request =", req, "\n", "namespace =", ns, ", parent =", var)
 
-def add(req, ns, var):
-    print("request =", req, "\n", "namespace =", ns, ", var =", var)
+
+def create(ns, parent):
+    print("request = create", "namespace =", ns, ", parent =", parent)
+    while Struct:
+        print()
+
+
+def add(ns, var):
+    print("request = add", "namespace =", ns, ", var =", var)
 
 
 num = int(input("Enter number: "))
-Struct = {'global':[]}
+#Struct = {'global': []}
+Struct = {'global':['a', {'foo':[]}]}
 
 for i in range(num):
-    print(NsStruct)
+    v1, v2, v3 = str(input()).split()
+    if v1 == "create":
+        create(v2, v3)
+    elif v1 == "add":
+        add(v2, v3)
+    elif v1 == "get":
+        pass
+    print(Struct)
 
 if __name__ == "__main__":
     pass
