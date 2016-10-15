@@ -19,7 +19,7 @@ def add(ns, var):
 
 
 def get(parent, var):
-    print("request = get,", "namespace =", parent, ", var =", var)
+    #print("request = get,", "namespace =", parent, ", var =", var)
     ns = None
     return ns
 
@@ -34,7 +34,8 @@ for i in range(num):
     elif v1 == "add":
         add(v2, v3)
     elif v1 == "get":
-        get(v2, v3)
+        # get(v2, v3)
+        print(get(v2, v3))
 
 print(Struct)
 
