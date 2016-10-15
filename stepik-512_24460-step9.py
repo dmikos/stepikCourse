@@ -20,6 +20,8 @@ def add(ns, var):
 
 def get(parent, var):
     print("request = get,", "namespace =", parent, ", var =", var)
+    ns = None
+    return ns
 
 num = int(input("Enter number: "))
 Struct = {'global': [None]}
