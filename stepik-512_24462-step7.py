@@ -42,9 +42,3 @@ for i in range(num):
         print(get(v2, v3))
 
 # print(Struct)
-
-# if __name__ == "__main__":
-#    pass
-#    func("add", "global", "a")
-#    func("create", "foo", "global")
-#    func("get", "foo", "a")
