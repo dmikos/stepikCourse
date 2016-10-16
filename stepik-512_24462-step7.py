@@ -5,11 +5,11 @@ version__ = "$Revision: 201610161442 $"
 # $Source$
 
 
-def add(C1, C2):
-    print("C1 =", C1,"C2 =", C2)
+def add(c1, c2=[None]):
+    print("C1 =", c1, "C2 =", c2)
     #templist = list(Struct.get(ns))
     #templist.append(var)
-    #Struct[ns] = templist
+    Struct[c1] = c2
     # print(Struct)
 
 
@@ -30,12 +30,11 @@ for i in range(i_num):
     string = str(input())
     if len(string) == 1:
         C1 = string
-        C2 = 'object'
-        add(C1, C2)
+        add(C1)
     else:
         C1 = string.split()[0]
-        C2 = string.split()[-1]
+        C2 = string.split()[2:]
         add(C1, C2)
 
 
-# print(Struct)
+print(Struct)

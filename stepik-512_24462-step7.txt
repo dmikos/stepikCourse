@@ -8,3 +8,10 @@ A B
 B D
 C D
 D A
+- - -
+C1 = A C2 = [None]
+C1 = B C2 = ['A']
+C1 = C C2 = ['A']
+C1 = D C2 = ['B', 'C']
+{'C': ['A'], 'A': [None], 'D': ['B', 'C'], 'B': ['A']}
+-
