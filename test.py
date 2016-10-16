@@ -1,23 +1,14 @@
 #!/usr/bin/env python3
 
-class A:
-    def __init__(self, val=0):
-        self.val = val
+def func():
+    a = 'test func'
+    print("func = ", a)
 
-    def add(self, x):
-        self.val += x
+a = 'test global'
+print("1 = ", a)
 
-    def print_val(self):
-        print(self.val)
-
-
-a = A()
-b = A(2)
-c = A(4)
-a.add(2)
-b.add(2)
+func()
+print("2 = ", a)
 
 if __name__ == "__main__":
-    a.print_val()
-    b.print_val()
-    c.print_val()
+    pass

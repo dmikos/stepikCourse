@@ -1,0 +1,33 @@
+NsStruct = {'global':[]}
+
+add global a
+NsStruct = {'global':['a']}
+
+create foo global
+NsStruct = {'global':['a', {'foo':[]}]}
+
+add foo b
+NsStruct = {'global':['a', {'foo':['b']}]}
+
+create bar foo
+NsStruct = {'global':['a', {'foo':['b', {'bar':[]}]}]}
+
+create bar a
+NsStruct = {'global':['a', {'foo':['b', {'bar':['a']}]}]}
+-
+def func(req, ns, var):
+    if(req == "create"):
+        print("request =", req, "\n", "namespace =", ns, ", parent =", var)
+    elif (req == "add"):
+        print("request =", req, "\n", "namespace =", ns, ", var =", var)
+    elif (req == "get"):
+        print("request =", req, "\n", "namespace =", ns, ", var =", var)
+    print(NsStruct)
+    print(NsStruct.keys())
+    print("\n")
+    -
+
+
+for k in d.get('content'):
+    print k.get('number')
+
