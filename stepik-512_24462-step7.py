@@ -6,12 +6,10 @@ version__ = "$Revision: 201610181516 $"
 
 
 def add(c1, c2=[None]):
-    #print("add C1 =", c1, "add C2 =", c2)
     Struct[c1] = c2
     for s in c2:
-        if s not in Struct.keys():
+        if s is not None and s not in Struct.keys():
             Struct[s] = [None]
-            # print(Struct)
 
 
 def recurs(c1, parent):
@@ -24,8 +22,9 @@ def recurs(c1, parent):
 
 
 def get(c1, c2):
-    #print("get C1 =", c1, "get C2 =", c2)
-    if c1 == c2:
+    if c2 not in Struct.keys():
+        print('No')
+    elif c1 == c2:
         print("Yes")
     elif c1 in Struct[c2]:
         print("Yes")
@@ -33,10 +32,8 @@ def get(c1, c2):
         print('Yes') if str(recurs(c1, Struct[c2])) == 'Yes' else print('No')
 
 Struct = {}
-# print(Struct)
 
-# Input sequence
-# i_num = int(input("Enter number: "))
+
 i_num = int(input())
 for i in range(i_num):
     string = str(input())
@@ -47,10 +44,8 @@ for i in range(i_num):
         C1 = string.split()[0]
         C2 = string.split()[2:]
         add(C1, C2)
-# print(Struct)
 
-# Output sequence
-# i_num = int(input("Enter number: "))
+
 i_num = int(input())
 for i in range(i_num):
     string = str(input())
