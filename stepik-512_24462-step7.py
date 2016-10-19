@@ -13,7 +13,8 @@ def add(c1, c2=[None]):
 
 
 def recurs(c1, parent):
-    if parent[0] is not None:
+    # if parent[0] is not None:
+    if len(parent) and parent[0] is not None:
         for temp in parent:
             if c1 in Struct[temp]:
                 return "Yes"
@@ -21,7 +22,7 @@ def recurs(c1, parent):
                 recurs(c1, Struct[temp])
 
 
-def get(c1, c2):
+def get(c1, c2=[None]):
     if c2 not in Struct.keys():
         print('No')
     elif c1 == c2:
