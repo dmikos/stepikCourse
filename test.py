@@ -1,14 +1,15 @@
-#!/usr/bin/env python3
+import time
 
-def func():
-    a = 'test func'
-    print("func = ", a)
+class Loggable:
+    def log(self, msg):
+        print(str(time.ctime()) + ": " + str(msg))
 
-a = 'test global'
-print("1 = ", a)
+class LoggableList(list, Loggable):
+    def tempo(self):
+        print("tte")
 
-func()
-print("2 = ", a)
 
 if __name__ == "__main__":
-    pass
+    x = LoggableList()
+    print(x)
+    x.tempo()
