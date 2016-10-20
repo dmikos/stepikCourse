@@ -1,3 +1,5 @@
+"""
+
 import time
 
 class Loggable:
@@ -9,7 +11,17 @@ class LoggableList(list, Loggable):
         print("tte")
 
 
-if __name__ == "__main__":
-    x = LoggableList()
-    print(x)
-    x.tempo()
+# if __name__ == "__main__":
+    # pass
+"""
+class NonPositiveError(Exception):
+    pass
+
+def greet(name):
+    if name[0].isupper():
+        return "Hello, " + name
+    else:
+        raise NonPositiveError(name + " is inappropriate name")
+
+print(greet("Anton"))
+print(greet("anton"))
