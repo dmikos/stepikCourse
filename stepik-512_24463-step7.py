@@ -21,20 +21,24 @@ for i in range(num):
 # if __name__ == "__main__":
 #    pass
 """
- Sample Input:
+def recurs(c1, parent):
+    # if parent[0] is not None:
+    if len(parent) and parent[0] is not None:
+        for temp in parent:
+            if c1 in Struct[temp]:
+                return "Yes"
+            else:
+                recurs(c1, Struct[temp])
 
-4
-ArithmeticError
-ZeroDivisionError : ArithmeticError
-OSError
-FileNotFoundError : OSError
-4
-ZeroDivisionError
-OSError
-ArithmeticError
-FileNotFoundError
 
-Sample Output:
+def get(c1, c2=[None]):
+    if c2 not in Struct.keys():
+        print('No')
+    elif c1 == c2:
+        print("Yes")
+    elif c1 in Struct[c2]:
+        print("Yes")
+    else:
+        print('Yes') if str(recurs(c1, Struct[c2])) == 'Yes' else print('No')
 
-FileNotFoundError
 """
