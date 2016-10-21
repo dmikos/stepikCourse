@@ -77,3 +77,18 @@ FileNotFoundError
 Sample Output:
 
 FileNotFoundError
+- - -
+Dmitriy K
+17 часов назад
+ссылка
+0
+
+Непонятно условие. Почему в приведенном примере не выводится "ZeroDivisionError", ведь в программе есть его предок - "ArithmeticError".
+
+Подскажите!
+Андрей Цепилов
+15 часов назад
+ссылка
+0
+@Dmitriy_K  ArithmeticError обрабатывается после ZeroDivisionError, следовательно ZeroDivisionError надо вывести, не нужно выводить лишь
+то чьи предки обработаны на данный момент выполнения программы
