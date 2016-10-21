@@ -3,22 +3,38 @@ Struct = dict()
 
 num = int(input())
 for i in range(num):
-    tempo = str(input()).split()
-    var1 = tempo[0]
-    var2 = ([None] if len(tempo) == 1 else tempo[2:])
-    # print(var1, var2)
+    exeption = str(input()).split()
+    var1 = exeption[0]
+    var2 = ([None] if len(exeption) == 1 else exeption[2:])
     Struct[var1] = var2
-
-# print(Struct)
+print(Struct)
 
 num = int(input())
+usedlist=list()
 for i in range(num):
-    tempo = str(input())
-    for st in Struct[tempo]:
-        # print(i)
-        # print(st)
-        if st in Struct.keys():
-            print(tempo)
+    exeption = str(input())
+    for parent in Struct[exeption]:
+        if parent in Struct.keys() and parent in usedlist:
+            print(exeption)
+    usedlist.append(exeption)
 
 # if __name__ == "__main__":
 #    pass
+"""
+ Sample Input:
+
+4
+ArithmeticError
+ZeroDivisionError : ArithmeticError
+OSError
+FileNotFoundError : OSError
+4
+ZeroDivisionError
+OSError
+ArithmeticError
+FileNotFoundError
+
+Sample Output:
+
+FileNotFoundError
+"""

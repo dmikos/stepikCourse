@@ -92,3 +92,19 @@ Dmitriy K
 0
 @Dmitriy_K  ArithmeticError обрабатывается после ZeroDivisionError, следовательно ZeroDivisionError надо вывести, не нужно выводить лишь
 то чьи предки обработаны на данный момент выполнения программы
+- - -
+для теста 4
+-
+5
+a
+b:a
+c:b
+d:c
+e:d
+5
+a
+d
+e
+b
+c
+- - -
