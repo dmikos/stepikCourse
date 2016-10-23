@@ -140,7 +140,7 @@ e
 -
 10
 a
-b :
+b
 c : a b
 d : c a
 e : d

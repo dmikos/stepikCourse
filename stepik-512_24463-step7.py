@@ -10,7 +10,7 @@ for i in range(num):
 print(Struct)
 
 num = int(input())
-usedlist=list()
+usedlist = list()
 for i in range(num):
     exeption = str(input())
     for parent in Struct[exeption]:
