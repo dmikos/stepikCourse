@@ -11,19 +11,20 @@ print(Struct)
 
 usedlist = list()
 
-def recurs(exeption, parent):
-    for tempo in parent:
-        if tempo is None:
-            pass
-        elif tempo in usedlist:
-            print(exeption)
-        else:
-            recurs(exeption, tempo)
+
+def recurs(exept):
+    for tempo in Struct[exept]:
+        if tempo is not None and tempo in usedlist:
+            return 1
+        elif tempo is not None and tempo not in usedlist:
+            recurs(tempo)
 
 num = int(input())
 for i in range(num):
     exeption = str(input())
-    recurs(exeption, Struct[exeption])
+    if Struct[exeption][0] is not None:
+            if recurs(exeption):
+                print(exeption)
 
 # if __name__ == "__main__":
 #    pass
