@@ -172,3 +172,32 @@ c
 j
 g
 e
+- - -
+10
+a
+b
+c : a b
+d : c a
+e : d
+f : e
+g : f a d e
+h : g
+j : h c d e g b
+k : j c a
+5
+d
+b
+a
+h
+f
+
+d
+b
+a
+h
+f
+k
+c
+j
+g
+e

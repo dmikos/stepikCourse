@@ -7,46 +7,30 @@ for i in range(num):
     var1 = exeption[0]
     var2 = ([None] if len(exeption) == 1 else exeption[2:])
     Struct[var1] = var2
-print(Struct)
+# print(Struct)
 
 usedlist = list()
+flag = 0
 
 
-def recurs(exept):
-    for tempo in Struct[exept]:
+def recurs(exept, parent):
+    for tempo in parent:
         if tempo is not None and tempo in usedlist:
-            return 1
+            global flag
+            flag = 1
         elif tempo is not None and tempo not in usedlist:
-            recurs(tempo)
+            recurs(exept, Struct[tempo])
 
 num = int(input())
 for i in range(num):
     exeption = str(input())
     if Struct[exeption][0] is not None:
-            if recurs(exeption):
-                print(exeption)
+        recurs(exeption, Struct[exeption])
+    if flag:
+        print(exeption)
+    flag = 0
+    usedlist.append(exeption)
+
 
 # if __name__ == "__main__":
 #    pass
-"""
-def recurs(c1, parent):
-    # if parent[0] is not None:
-    if len(parent) and parent[0] is not None:
-        for temp in parent:
-            if c1 in Struct[temp]:
-                return "Yes"
-            else:
-                recurs(c1, Struct[temp])
-
-
-def get(c1, c2=[None]):
-    if c2 not in Struct.keys():
-        print('No')
-    elif c1 == c2:
-        print("Yes")
-    elif c1 in Struct[c2]:
-        print("Yes")
-    else:
-        print('Yes') if str(recurs(c1, Struct[c2])) == 'Yes' else print('No')
-
-"""
