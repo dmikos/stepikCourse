@@ -9,14 +9,21 @@ for i in range(num):
     Struct[var1] = var2
 print(Struct)
 
-num = int(input())
 usedlist = list()
+
+def recurs(exeption, parent):
+    for tempo in parent:
+        if tempo is None:
+            pass
+        elif tempo in usedlist:
+            print(exeption)
+        else:
+            recurs(exeption, tempo)
+
+num = int(input())
 for i in range(num):
     exeption = str(input())
-    for parent in Struct[exeption]:
-        if parent in Struct.keys() and parent in usedlist:
-            print(exeption)
-    usedlist.append(exeption)
+    recurs(exeption, Struct[exeption])
 
 # if __name__ == "__main__":
 #    pass
