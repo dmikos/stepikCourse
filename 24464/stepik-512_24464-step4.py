@@ -11,17 +11,24 @@ class multifilter:
         # допускает элемент, если его допускают все функции (neg == 0)
         pass
 
-    def __init__(self, iterable, *funcs, judge=judge_any):
+#    def __init__(self, iterable, *funcs, judge=judge_any):
         # iterable - исходная последовательность
         # funcs - допускающие функции
         # judge - решающая функция
-        pass
+#        pass
 
     def __iter__(self):
         # возвращает итератор по результирующей последовательности
+        return self
         pass
 
-if __name__ == '__main__':
+    def __next__(self):
+        return 0
+
+x = multifilter()
+print(iter(x))
+
+"""if __name__ == '__main__':
     def mul2(x):
         return x % 2 == 0
 
@@ -44,3 +51,4 @@ if __name__ == '__main__':
 
     print(list(multifilter(a, mul2, mul3, mul5, judge=multifilter.judge_all)))
     # [0, 30]
+"""
