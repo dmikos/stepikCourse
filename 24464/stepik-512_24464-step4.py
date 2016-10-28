@@ -18,8 +18,6 @@ class multifilter:
         self.iterable = iterable
         self.funcs = funcs
         self.judge = judge
-        self.neg = 0
-        self.pos = 0
         self.i = 0
 
     def __iter__(self):
@@ -27,14 +25,20 @@ class multifilter:
         return self
 
     def __next__(self):
+        neg = 0
+        pos = 0
         if self.i < len(self.iterable):
+            tmp = self.i
+            self.i += 1
             for i in self.funcs:
-                if i(self.i):
-                    self.pos += 1
+                if i(self.iterable[tmp]):
+                    pos += 1
                 else:
-                    self.neg += 1
-            if self.judge(self.pos, self.neg):
-                return self.i
+                    neg += 1
+            if self.judge(pos, neg):
+                return self.iterable[tmp]
+            else:
+                return next(self)
         else:
             raise StopIteration
 
