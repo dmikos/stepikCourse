@@ -36,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/24464/stepik-512_24464-step5.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+              <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -446,13 +446,6 @@
       <option name="presentableId" value="Default" />
       <updated>1474660466749</updated>
     </task>
-    <task id="LOCAL-00001" summary=".">
-      <created>1474661622020</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1474661622020</updated>
-    </task>
     <task id="LOCAL-00002" summary=".">
       <created>1474662032538</created>
       <option name="number" value="00002" />
@@ -789,7 +782,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477775173723</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary=".">
+      <created>1477777389662</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1477777389663</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1037,7 +1037,7 @@
     <entry file="file://$PROJECT_DIR$/24464/stepik-512_24464-step5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
           <folding />
         </state>
       </provider>
