@@ -2,10 +2,10 @@ import itertools
 
 
 def primes():
-    num = 2
-    if 1:
+    while True:
+        num = 2
         yield num
-    num += 1
+        num += 1
 
 
 if __name__ == "__main__":
