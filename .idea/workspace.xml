@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5f1f1ee-e96c-4b0c-abc6-ba670c897acf" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/24465/stepik-512_24465-step6.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/24465/stepik-512_24465-step6.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/24465/foutput.txt" afterPath="$PROJECT_DIR$/24465/foutput.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/24465/stepik-512_24465-step4.py" afterPath="$PROJECT_DIR$/24465/stepik-512_24465-step4.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,31 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stepik-512_24465-step4.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/24465/stepik-512_24465-step4.py">
+      <file leaf-file-name="stepik-512_24465-step6.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/24465/stepik-512_24465-step6.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="finput.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/24465/finput.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="foutput.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/24465/foutput.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8260">
+            <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stepik-512_24465-step6.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/24465/stepik-512_24465-step6.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -106,6 +97,8 @@
         <option value="$PROJECT_DIR$/24465/stepik-512_24465-step4.txt" />
         <option value="$PROJECT_DIR$/24464/finput.txt" />
         <option value="$PROJECT_DIR$/24465/stepik-512_24465-step4.py" />
+        <option value="$PROJECT_DIR$/24465/stepik-512_24465-step6.txt" />
+        <option value="$PROJECT_DIR$/24465/stepik-512_24465-step6.py" />
       </list>
     </option>
   </component>
@@ -185,15 +178,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/24465" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/24465" />
+      <recent name="$PROJECT_DIR$/24463" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/24465" />
       <recent name="$PROJECT_DIR$/24464" />
       <recent name="$PROJECT_DIR$/24466" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/24465" />
-      <recent name="$PROJECT_DIR$/24463" />
     </key>
   </component>
   <component name="RunManager" selected="Python.stepik-512_24465-step4">
@@ -461,13 +454,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1474660466749</updated>
-    </task>
-    <task id="LOCAL-00009" summary=".">
-      <created>1476385737615</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1476385737615</updated>
     </task>
     <task id="LOCAL-00010" summary=".">
       <created>1476387914007</created>
@@ -805,7 +791,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477856540616</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary=".">
+      <created>1477857723628</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1477857723628</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -884,16 +877,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stepik-512_24458-step9.py" />
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stepik-512_24458-step9.py" />
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1054,6 +1037,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/24465/dataset_24465_4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15476">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/24465/foutput.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="560" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="560" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/24465/stepik-512_24465-step4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -1062,9 +1061,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/24465/foutput.txt">
+    <entry file="file://$PROJECT_DIR$/24465/stepik-512_24465-step6.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8260">
+        <state relative-caret-position="176">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/24465/stepik-512_24465-step6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
