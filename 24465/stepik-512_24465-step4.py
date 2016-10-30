@@ -1,2 +1,4 @@
 with open("finput.txt", "r") as fin, open("foutput.txt", "w") as fout:
-    print(fin.readlines().rstrip)
+    for line in fin:
+        print(line.rstrip())
+        fout.write(line)
