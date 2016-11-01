@@ -50,3 +50,27 @@ c
 Sample Output 4:
 
 Impossible
+- - -
+
+def main(s, a, b):
+    if a == b and s.count(a):
+        print("Impossible")
+        # return "Impossible"
+    elif a == b and not s.count(a):
+        print("0")
+        # return 0
+    else:
+
+        count = 0
+        while s.count(a):
+            s = s.replace(a, b)
+            print(s)
+            count += 1
+        print(count)
+        # return count
+
+if __name__ == '__main__':
+    main("abab", "ab", "ba")
+    # main("ababa", "b", "a")
+    # main("ababa", "b", "b")
+    # main("ababa", "c", "c")

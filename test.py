@@ -1,7 +1,6 @@
-class multifilter:
+def fun(arg=1):
     pass
-    def __next__(self):
-        return 0
 
-x = multifilter()
-print(next(x))
+x, y=y, x
+is_even=lambda x: x % 2 == 0
+a=31 
