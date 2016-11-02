@@ -1,4 +1,9 @@
-if a == b and s.count(a):
+s = str(input())
+a = str(input())
+b = str(input())
+
+
+if a in b and s.count(a):
     print("Impossible")
 elif a == b and not s.count(a):
     print("0")

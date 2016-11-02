@@ -3,4 +3,4 @@ def fun(arg=1):
 
 x, y=y, x
 is_even=lambda x: x % 2 == 0
-a=31 
+a=31
