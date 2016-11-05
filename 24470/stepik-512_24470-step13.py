@@ -1,12 +1,20 @@
 import sys
 import re
 
-for line in sys.stdin:
-    line = line.rstrip()
-    print(re.sub(r"\b(a*)\b", "argh", line))
-
+line = "AaAaAaA AaAaAaA"
+line = "There’ll be no more \"Aaaaaaaaaaaaaaa\""
+print(re.sub(r"\ba+\b", "argh", line, count=1, flags=re.IGNORECASE))
 
 """
+import sys
+import re
+
+for line in sys.stdin:
+    line = line.rstrip()
+    print(re.sub(r"\ba+\b", "argh", line, count=1, flags=re.IGNORECASE))
+
+
+
 Вам дана последовательность строк.
 В каждой строке замените первое вхождение слова, состоящего только из латинских букв "a" (регистр не важен),
 на слово "argh".
