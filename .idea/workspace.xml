@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5f1f1ee-e96c-4b0c-abc6-ba670c897acf" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/24470/stepik-512_24470-step10.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/24470/stepik-512_24470-step9.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/24470/stepik-512_24470-step8.py" afterPath="$PROJECT_DIR$/24470/stepik-512_24470-step8.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="stepik-512_24470-step8.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="stepik-512_24470-step8.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/24470/stepik-512_24470-step8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="16">
+              <caret line="1" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="9" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -34,14 +35,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stepik-512_24470-step7.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/24470/stepik-512_24470-step7.py">
+      <file leaf-file-name="stepik-512_24470-step9.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/24470/stepik-512_24470-step9.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="240">
+              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stepik-512_24470-step10.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/24470/stepik-512_24470-step10.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stepik-512_24470-step9.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/24470/stepik-512_24470-step9.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,8 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/stepik-512_24463-step6.txt" />
-        <option value="$PROJECT_DIR$/stepik-512_24463-step6.py" />
         <option value="$PROJECT_DIR$/stepik-512_24463-step9.txt" />
         <option value="$PROJECT_DIR$/stepik-512_24463-step9.py" />
         <option value="$PROJECT_DIR$/stepik-512_24463-step7.txt" />
@@ -112,6 +133,8 @@
         <option value="$PROJECT_DIR$/24470/stepik-512_24470-step16.txt" />
         <option value="$PROJECT_DIR$/24470/stepik-512_24470-step7.py" />
         <option value="$PROJECT_DIR$/24470/stepik-512_24470-step8.py" />
+        <option value="$PROJECT_DIR$/24470/stepik-512_24470-step9.py" />
+        <option value="$PROJECT_DIR$/24470/stepik-512_24470-step10.py" />
       </list>
     </option>
   </component>
@@ -203,24 +226,7 @@
       <recent name="$PROJECT_DIR$/24463" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.stepik-512_24470-step8">
-    <configuration default="false" name="stepik-512_24470-step3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/24470" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="stepikCourse" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/24470/stepik-512_24470-step3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.stepik-512_24470-step9">
     <configuration default="false" name="stepik-512_24470-step4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -285,6 +291,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="stepikCourse" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/24470/stepik-512_24470-step8.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="stepik-512_24470-step9" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/24470" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stepikCourse" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/24470/stepik-512_24470-step9.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -442,19 +465,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.stepik-512_24458-step9" />
-      <item index="1" class="java.lang.String" itemvalue="Python.stepik-512_24470-step3" />
-      <item index="2" class="java.lang.String" itemvalue="Python.stepik-512_24470-step4" />
-      <item index="3" class="java.lang.String" itemvalue="Python.stepik-512_24470-step5" />
-      <item index="4" class="java.lang.String" itemvalue="Python.stepik-512_24470-step6" />
-      <item index="5" class="java.lang.String" itemvalue="Python.stepik-512_24470-step8" />
+      <item index="1" class="java.lang.String" itemvalue="Python.stepik-512_24470-step4" />
+      <item index="2" class="java.lang.String" itemvalue="Python.stepik-512_24470-step5" />
+      <item index="3" class="java.lang.String" itemvalue="Python.stepik-512_24470-step6" />
+      <item index="4" class="java.lang.String" itemvalue="Python.stepik-512_24470-step8" />
+      <item index="5" class="java.lang.String" itemvalue="Python.stepik-512_24470-step9" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.stepik-512_24470-step8" />
-        <item index="1" class="java.lang.String" itemvalue="Python.stepik-512_24470-step6" />
-        <item index="2" class="java.lang.String" itemvalue="Python.stepik-512_24470-step5" />
-        <item index="3" class="java.lang.String" itemvalue="Python.stepik-512_24470-step4" />
-        <item index="4" class="java.lang.String" itemvalue="Python.stepik-512_24470-step3" />
+        <item index="0" class="java.lang.String" itemvalue="Python.stepik-512_24470-step9" />
+        <item index="1" class="java.lang.String" itemvalue="Python.stepik-512_24470-step8" />
+        <item index="2" class="java.lang.String" itemvalue="Python.stepik-512_24470-step6" />
+        <item index="3" class="java.lang.String" itemvalue="Python.stepik-512_24470-step5" />
+        <item index="4" class="java.lang.String" itemvalue="Python.stepik-512_24470-step4" />
       </list>
     </recent_temporary>
   </component>
@@ -468,13 +491,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1474660466749</updated>
-    </task>
-    <task id="LOCAL-00022" summary=".">
-      <created>1476630085349</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1476630085349</updated>
     </task>
     <task id="LOCAL-00023" summary=".">
       <created>1476633900881</created>
@@ -812,7 +828,14 @@
       <option name="project" value="LOCAL" />
       <updated>1478331842637</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary=".">
+      <created>1478334248214</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1478334248214</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -905,7 +928,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="29" />
+      <option name="time" value="30" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -914,21 +937,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/24463/stepik-512_24463-step7.4run">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/24464/stepik-512_24464-step4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/24464/stepik-512_24464-step4.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1232">
@@ -1113,13 +1121,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/24470/stepik-512_24470-step9.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/24470/stepik-512_24470-step11.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1270,8 +1271,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/24470/stepik-512_24470-step8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        <state relative-caret-position="16">
+          <caret line="1" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/24470/stepik-512_24470-step9.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/24470/stepik-512_24470-step9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/24470/stepik-512_24470-step10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
