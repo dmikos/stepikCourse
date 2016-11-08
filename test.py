@@ -1,6 +1,7 @@
-def fun(arg=1):
-    pass
+import requests
 
-x, y=y, x
-is_even=lambda x: x % 2 == 0
-a=31
+res = requests.get("http://hosting.ukrtelecom.ua/stepik-512_24471-step7.html")
+print(res.headers)
+
+res = requests.get("http://hosting.ukrtelecom.ua/info.php")
+print(res.headers)
