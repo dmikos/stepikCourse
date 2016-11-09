@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5f1f1ee-e96c-4b0c-abc6-ba670c897acf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/24473/example.tsv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/24473/stepik-512_24473-step2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/24473/stepik-512_24473-step2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/24473/example.csv" afterPath="$PROJECT_DIR$/24473/example.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/24473/stepik-512_24473-step1.py" afterPath="$PROJECT_DIR$/24473/stepik-512_24473-step1.py" />
-    </list>
+    <list default="true" id="e5f1f1ee-e96c-4b0c-abc6-ba670c897acf" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -489,13 +482,6 @@
       <option name="presentableId" value="Default" />
       <updated>1474660466749</updated>
     </task>
-    <task id="LOCAL-00043" summary=".">
-      <created>1477396096781</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1477396096781</updated>
-    </task>
     <task id="LOCAL-00044" summary=".">
       <created>1477400808275</created>
       <option name="number" value="00044" />
@@ -832,7 +818,14 @@
       <option name="project" value="LOCAL" />
       <updated>1478696465212</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary=".">
+      <created>1478698111997</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1478698111997</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="ToolWindowManager">
