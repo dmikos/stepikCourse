@@ -9,7 +9,7 @@ link = "http://hosting.ukrtelecom.ua/stepik-512_24471-step7.html"
 # link = "http://pastebin.com/raw/7543p0ns"
 # link = "http://hosting.ukrtelecom.ua/stepik-512_24471-step7-test3.html"
 
-pattern = re.compile(r"href *=.+[',\"]")
+pattern = re.compile(r"href *= *[',\"].+[',\"]")
 res = pattern.findall(requests.get(link).text)
 finset = set()
 
