@@ -3,7 +3,9 @@ import re
 
 # link = input()
 link = "http://hosting.ukrtelecom.ua/stepik-512_24471-step7.html"
-# link = http://pastebin.com/raw/7543p0ns   #test3
+#test3
+# link = "http://pastebin.com/raw/7543p0ns"
+# link = "http://hosting.ukrtelecom.ua/stepik-512_24471-step7-test3.html"
 res = requests.get(link)
 # print(res.text)
 # print("- - -")
