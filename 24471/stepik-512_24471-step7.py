@@ -1,26 +1,32 @@
 import requests
 import re
+from urllib.parse import urlparse
 
 # link = input()
 link = "http://hosting.ukrtelecom.ua/stepik-512_24471-step7.html"
+# link = "http://pastebin.com/raw/2mie4QYa"
 #test3
 # link = "http://pastebin.com/raw/7543p0ns"
 # link = "http://hosting.ukrtelecom.ua/stepik-512_24471-step7-test3.html"
-res = requests.get(link)
-# print(res.text)
-# print("- - -")
-pattern = re.compile(r"href=.+[',\"]")
-res1 = pattern.findall(res.text)
-# print(res1)
-for line in res1:
+
+pattern = re.compile(r"href *=.+[',\"]")
+res = pattern.findall(requests.get(link).text)
+finset = set()
+
+for line in res:
     line = re.split(r"[',\"]", str(line))[1]
-    if line.startswith(".."):
+    if line.startswith("../"):
         continue
-    elif "//" in line:
-        result = re.search(r"//.+\b", line)
-        print(result)
-    else:
-        print(line)
+    elif urlparse(line).scheme == '':
+        # finset.add((urlparse(line).path).split(':')[0]) if urlparse(line).port else finset.add(urlparse(line).path)
+        finset.add(urlparse(line).path)
+    elif urlparse(line).scheme:
+        finset.add((urlparse(line).netloc).split(':')[0]) if urlparse(line).port else finset.add(urlparse(line).netloc)
+
+# print(sorted(finset))
+
+for stroke in sorted(finset):
+    print(stroke)
 
 
 """
