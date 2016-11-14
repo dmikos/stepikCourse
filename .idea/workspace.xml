@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5f1f1ee-e96c-4b0c-abc6-ba670c897acf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/24476/dataset_24476_4.txt" afterPath="$PROJECT_DIR$/24476/dataset_24476_4.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/24476/stepik-512_24476-step4.py" afterPath="$PROJECT_DIR$/24476/stepik-512_24476-step4.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/24474/stepik-512_24474-step1.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,24 +21,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="stepik-512_24476-step3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/24476/stepik-512_24476-step3.py">
+      <file leaf-file-name="stepik-512_24474-step1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/24474/stepik-512_24474-step1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="38" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="38" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stepik-512_24476-step4.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/24476/stepik-512_24476-step4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -60,7 +46,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/24469/stepik-512_24469-step6.txt" />
         <option value="$PROJECT_DIR$/24469/stepik-512_24469-step6.py" />
         <option value="$PROJECT_DIR$/24469/stepik-512_24469-step7.py" />
         <option value="$PROJECT_DIR$/24470/stepik-512_24470-step1.py" />
@@ -111,6 +96,7 @@
         <option value="$PROJECT_DIR$/24476/stepik-512_24476-step3.py" />
         <option value="$PROJECT_DIR$/24476/stepik-512_24476-step4.txt" />
         <option value="$PROJECT_DIR$/24476/stepik-512_24476-step4.py" />
+        <option value="$PROJECT_DIR$/24474/stepik-512_24474-step1.py" />
       </list>
     </option>
   </component>
@@ -173,7 +159,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="24476" />
+              <option name="myItemId" value="24474" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -195,11 +181,11 @@
       <recent name="$PROJECT_DIR$/24463" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/24474" />
       <recent name="$PROJECT_DIR$/24476" />
       <recent name="$PROJECT_DIR$/24473" />
       <recent name="$PROJECT_DIR$/24471" />
       <recent name="$PROJECT_DIR$/24470" />
-      <recent name="$PROJECT_DIR$/24469" />
     </key>
   </component>
   <component name="RunManager" selected="Python.stepik-512_24476-step4">
@@ -467,13 +453,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1474660466749</updated>
-    </task>
-    <task id="LOCAL-00054" summary=".">
-      <created>1477778736924</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1477778736925</updated>
     </task>
     <task id="LOCAL-00055" summary=".">
       <created>1477778842960</created>
@@ -811,14 +790,21 @@
       <option name="project" value="LOCAL" />
       <updated>1479132645065</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary=".">
+      <created>1479136784841</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1479136784841</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1279" y="27" width="1602" height="877" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31918937" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31918937" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32671958" sideWeight="0.50474983" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32671958" sideWeight="0.49525017" order="1" side_tool="false" content_ui="tabs" />
@@ -933,13 +919,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/24463/stepik-512_24463-step9.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/24470/stepik-512_24470-step7.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1295,6 +1274,14 @@
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/24474/stepik-512_24474-step1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
