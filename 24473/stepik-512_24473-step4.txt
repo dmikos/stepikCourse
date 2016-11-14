@@ -31,3 +31,43 @@ Sample Output:
 A : 3
 B : 1
 C : 2
+- - -
+второй тест:
+
+[
+  {"name": "kvrwxkmqfy", "parents": ["zemrehxvuo", "qzntzflodp", "pjvisgmdrw"]},
+  {"name": "ogqoyccgkn", "parents": ["ppcmlxqgmn", "titthqeskb"]},
+  {"name": "uhfdrfrhzx", "parents": ["ogqoyccgkn", "ppcmlxqgmn", "wubwjzolrx", "pjvisgmdrw", "titthqeskb"]},
+  {"name": "zemrehxvuo", "parents": ["uhfdrfrhzx", "wubwjzolrx", "pjvisgmdrw", "titthqeskb"]},
+  {"name": "ppcmlxqgmn", "parents": ["pjvisgmdrw", "thceozowkb"]},
+  {"name": "qzntzflodp", "parents": ["wubwjzolrx", "titthqeskb", "thceozowkb"]},
+  {"name": "wubwjzolrx", "parents": []},
+  {"name": "pjvisgmdrw", "parents": []},
+  {"name": "titthqeskb", "parents": ["wubwjzolrx", "pjvisgmdrw"]},
+  {"name": "thceozowkb", "parents": ["pjvisgmdrw", "titthqeskb"]}
+]
+
+
+ответы:
+
+kvrwxkmqfy : 1
+ogqoyccgkn : 4
+pjvisgmdrw : 9
+ppcmlxqgmn : 5
+qzntzflodp : 2
+thceozowkb : 7
+titthqeskb : 8
+uhfdrfrhzx : 3
+wubwjzolrx : 9
+zemrehxvuo : 2
+- - -
+Уместилось в 20 строк, решение прошло с 1 раза. Удобно будет реализовать словарь вида 'родитель' : [потомки], а затем
+присмотреться к списковому методу extend внутри цикла или рекурсии.
+- - -
+http://eddmann.com/posts/depth-first-search-and-breadth-first-search-in-python/
+
+Просто оставлю это тут.
+
+С первого раза все сработало.
+- - -
+
