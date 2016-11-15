@@ -1,26 +1,20 @@
 from xml.etree import ElementTree
 
-root = ElementTree.fromstring('<cube color="blue"><cube color="red"><cube color="green"></cube></cube><cube color="red"></cube></cube>')
-# root = ElementTree.fromstring(input())
+# root = ElementTree.fromstring('<cube color="blue"><cube color="red"><cube color="green"></cube></cube><cube color="red"></cube></cube>')
+root = ElementTree.fromstring(input())
 
-res = {"red":0, "green":0, "blue":0}
-val = 1
+res = {"red": 0, "green": 0, "blue": 0}
+val = 0
 
-# print(root)
-#print(root.tag, root.attrib)
 
-if root.tag == "cube":
-    res[root.attrib['color']] += val
-
-def recurs(root, val):
-    val += 1
-    for child in root:
-        recurs(child, val)
-    if root.tag == "cube":
-        res[root.attrib['color']] += val
-        # print(child.tag, child.attrib)
+def recurs(funcroot, funcval):
+    funcval += 1
+    if funcroot.tag == "cube":
+        res[funcroot.attrib['color']] += funcval
+    for child in funcroot:
+        recurs(child, funcval)
 
 recurs(root, val)
 
-print("- - -")
-print(res)
+for i in ['red', 'green', 'blue']:
+    print(res[i], end=" ")
