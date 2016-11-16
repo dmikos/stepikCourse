@@ -1,0 +1,4 @@
+g++ stepik-7_535-step7.cpp -o stepik-7_535-step7
+
+./stepik-7_535-step7
+Hello, World!
