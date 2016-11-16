@@ -2,8 +2,138 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5f1f1ee-e96c-4b0c-abc6-ba670c897acf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/24474/stepik-512_24474-step2-1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/24474/stepik-512_24474-step2.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24458/stepik-512_24458-step15.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24458/stepik-512_24458-step9.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24459/stepik-512_24459-step9.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24460/stepik-512_24460-step9.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24460/stepik-512_24460-step9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24461/stepik-512_24461-step8.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24461/stepik-512_24461-step9.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24462/stepik-512_24462-step7.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24462/stepik-512_24462-step7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24462/stepik-512_24462-step8.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24462/stepik-512_24462-step8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24462/stepik-512_24462-step9.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24462/stepik-512_24462-step9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24463/stepik-512_24463-step6.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24463/stepik-512_24463-step6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24463/stepik-512_24463-step7.4run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24463/stepik-512_24463-step7.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24463/stepik-512_24463-step7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24463/stepik-512_24463-step9.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24463/stepik-512_24463-step9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24464/stepik-512_24464-step4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24464/stepik-512_24464-step4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24464/stepik-512_24464-step5.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24464/stepik-512_24464-step5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24465/24465-step6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24465/dataset_24465_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24465/finput.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24465/foutput.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24465/main.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24465/sample.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24465/sample/a/a.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24465/sample/a/c/ac1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24465/sample/a/c/ac2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24465/sample/a/c/not_py.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24465/sample/a/not_py.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24465/sample/b/b.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24465/sample/not_py.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24465/sample/sample.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24465/sample_ans.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24465/stepik-512_24465-step4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24465/stepik-512_24465-step4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24465/stepik-512_24465-step6.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24465/stepik-512_24465-step6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24466/encrypted.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24466/passwords.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24466/stepik-512_24466-step5.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24466/stepik-512_24466-step5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24466/stepik-512_24466-step9.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24466/stepik-512_24466-step9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24468/stepik-512_24468-step3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24468/stepik-512_24468-step3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24468/stepik-512_24468-step4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24468/stepik-512_24468-step5.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24468/stepik-512_24468-step6.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24468/stepik-512_24468-step6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24469/stepik-512_24469-step3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24469/stepik-512_24469-step4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24469/stepik-512_24469-step5.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24469/stepik-512_24469-step6.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24469/stepik-512_24469-step6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24469/stepik-512_24469-step7.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24469/stepik-512_24469-step7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24470/stepik-512_24470-step1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24470/stepik-512_24470-step10.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24470/stepik-512_24470-step10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24470/stepik-512_24470-step11.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24470/stepik-512_24470-step11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24470/stepik-512_24470-step12.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24470/stepik-512_24470-step12.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24470/stepik-512_24470-step13.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24470/stepik-512_24470-step13.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24470/stepik-512_24470-step14.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24470/stepik-512_24470-step14.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24470/stepik-512_24470-step15.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24470/stepik-512_24470-step15.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24470/stepik-512_24470-step16.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24470/stepik-512_24470-step16.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24470/stepik-512_24470-step2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24470/stepik-512_24470-step3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24470/stepik-512_24470-step4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24470/stepik-512_24470-step5.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24470/stepik-512_24470-step6.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24470/stepik-512_24470-step7.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24470/stepik-512_24470-step7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24470/stepik-512_24470-step8.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24470/stepik-512_24470-step8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24470/stepik-512_24470-step9.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24470/stepik-512_24470-step9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24471/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24471/stepik-512_24471-step5-1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24471/stepik-512_24471-step5.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24471/stepik-512_24471-step6.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24471/stepik-512_24471-step6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24471/stepik-512_24471-step7.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24471/stepik-512_24471-step7.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24471/stepik-512_24471-step7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24473/Crimes.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24473/example-rows-1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24473/example-rows-2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24473/example-rows-3.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24473/example.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24473/example.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24473/example.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24473/stepik-512_24473-step1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24473/stepik-512_24473-step2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24473/stepik-512_24473-step2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24473/stepik-512_24473-step3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24473/stepik-512_24473-step4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24473/stepik-512_24473-step4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24473/students.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24474/example.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24474/example_copy.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24474/example_modified.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24474/stepik-512_24474-step2-1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24474/stepik-512_24474-step2-xml_create.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24474/stepik-512_24474-step2-xml_read-copy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24474/stepik-512_24474-step2-xml_write-edit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24474/stepik-512_24474-step2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24474/stepik-512_24474-step3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24474/stepik-512_24474-step4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24474/stepik-512_24474-step4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24474/stepik-512_24474-step4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24474/student.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24476/dataset_24476_3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24476/dataset_24476_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24476/dataset_24476_4.txt.orig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24476/dataset_24476_4.txt.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24476/stepik-512_24476-step2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24476/stepik-512_24476-step3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24476/stepik-512_24476-step3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24476/stepik-512_24476-step4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24476/stepik-512_24476-step4.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,38 +152,7 @@
     <favorites_list name="stepikCourse" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="stepik-512_24474-step4.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/24474/stepik-512_24474-step4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stepik-512_24474-step4.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/24474/stepik-512_24474-step4.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="70" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stepik-512_24474-step4.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/24474/stepik-512_24474-step4.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -169,20 +268,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="stepikCourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stepikCourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stepikCourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="24474" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -475,13 +560,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1474660466749</updated>
-    </task>
-    <task id="LOCAL-00059" summary=".">
-      <created>1477913612830</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1477913612831</updated>
     </task>
     <task id="LOCAL-00060" summary=".">
       <created>1477913728239</created>
@@ -819,7 +897,14 @@
       <option name="project" value="LOCAL" />
       <updated>1479215638030</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary=".">
+      <created>1479281967477</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1479281967478</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="ToolWindowManager">
