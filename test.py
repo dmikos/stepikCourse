@@ -1,4 +1,9 @@
-import urllib.request
+def fred():
+    print("Zap")
 
-link = "http://hosting.ukrtelecom.ua/stepik-512_24471-step7.html"
-data = urllib.request.urlopen(link)
+def jane():
+    print("ABC")
+
+jane()
+fred()
+jane()
